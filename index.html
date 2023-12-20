@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Design</title>
+    <link rel="stylesheet" href="css/master.css" />
+    <link rel="stylesheet" href="css/normalized.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="setting-box">
+      <div class="toggle-setting">
+        <i class="fa fa-gear"></i>
+      </div>
+      <div class="setting-container">
+        <div class="option-box">
+          <h4>Colors</h4>
+          <ul class="colors-list">
+            <li class="active" data-color="red"></li>
+            <li data-color="#14ff00"></li>
+            <li data-color="#ffb100"></li>
+            <li data-color="#00cbff"></li>
+            <li data-color="#ff00be"></li>
+          </ul>
+        </div>
+        <div class="option-box">
+          <h4>Random Background</h4>
+          <span class="yes active" data-background="yes">Yes</span>
+          <span class="no" data-background="no">NO</span>
+        </div>
+        <div class="bullet-box">
+          <h4>Show Bullets</h4>
+          <span  class="yes active" data-display="yes">Yes</span>
+          <span class="no" data-display="no">NO</span>
+        </div>
+      </div>
+      <button class="reset-option">Reset Options</button>
+    </div>
+    <div class="nav-bullets">
+      <div class="bullet" data-section=".about">
+        <div class="tooltip">About</div>
+      </div>
+      <div class="bullet" data-section=".series">
+        <div class="tooltip">TV Series</div>
+      </div>
+      <div class="bullet" data-section=".stats">
+        <div class="tooltip">Statistics</div>
+      </div>
+      <div class="bullet" data-section=".timeline">
+        <div class="tooltip">Timeline</div>
+      </div>
+      <div class="bullet" data-section=".testimonials">
+        <div class="tooltip">Testimonials</div>
+      </div>
+      <div class="bullet" data-section=".contact">
+        <div class="tooltip">Contact</div>
+      </div>
+    </div>
+    <div class="landing">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="header">
+          <img src="images/Logonetflix.png" alt="" class="logo" />
+          <ul class="links">
+            <li><a href="" class="active">Home</a></li>
+            <li><a href="#" data-section=".about">About</a></li>
+            <li><a href="#" data-section=".series">TV Series</a></li>
+            <li><a href="#" data-section=".stats">Statistics</a></li>
+            <li><a href="#"  data-section=".timeline">Timeline</a></li>
+            <li><a href="#" data-section=".testimonials">Testimonials</a></li>
+            <li><a href="#" data-section=".contact">Contact</a></li>
+          </ul>
+          <i class="fas fa-bars toggle-menu icon-links"></i>
+        </div>
+        <div class="intro-text">
+          <h1>Unlimited movies, TV shows, and more</h1>
+          <p>Watch anywhere. Cancel anytime.</p>
+          <span>
+            Ready to watch? Enter your email to create or restart your
+            membership.</span
+          >
+        </div>
+      </div>
+    </div>
+    <div class="about" id="about">
+      <div class="container">
+        <div class="info-box">
+          <h2>Enjoy on your TV</h2>
+          <p>
+            Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray
+            players, and more.
+          </p>
+        </div>
+        <div class="image">
+          <img src="images/tv.png" alt="" />
+          <div class="video">
+            <video autoplay loop muted>
+              <source src="images/video-tv-0819.m4v" />
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="series" id="TV">
+      <div class="container">
+        <h2>TV Series</h2>
+        <div class="box-container">
+          <div class="box">
+            <img src="images/series1.jpg" alt="Serie 1" />
+            <div class="box-text">
+              <h3>Hagma Mortda</h3>
+              <p>The heroes of this series are Ahmed Ezz and Hend Sabry</p>
+            </div>
+          </div>
+          <div class="box">
+            <img src="images/series2.jpg" alt="Serie 2" />
+            <div class="box-text">
+              <h3>Ahlam Saaida</h3>
+              <p>The heroes of this series are yousra and shimaa Sief</p>
+            </div>
+          </div>
+          <div class="box">
+            <img src="images/series3.jpg" alt="" />
+            <div class="box-text">
+              <h3>Elli Malosh Kpir</h3>
+              <p>
+                The heroes of this series are Ahmed El aeady and Yasmin abd El
+                aziz
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <img src="images/series4.jpg" alt="" />
+            <div class="box-text">
+              <h3>El Aaadon</h3>
+              <p>The heroes of this series are Amina Khalil and Amir Karara</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="stats" id="stats">
+      <h2>Statistics</h2>
+      <div class="container">
+        <div class="image">
+          <img src="images/statistics1.jpg" alt="" />
+        </div>
+        <div class="text">
+          <div class="box">
+            <h4>Subscripers</h4>
+            <div class="prog-holder">
+              <span data-progress="100%"></span>
+            </div>
+          </div>
+          <div class="box">
+            <h4>Views</h4>
+            <div class="prog-holder">
+              <span data-progress="100%"></span>
+            </div>
+          </div>
+          <div class="box">
+            <h4>Downloads</h4>
+            <div class="prog-holder">
+              <span data-progress="80%"></span>
+            </div>
+          </div>
+          <div class="box">
+            <h4>Reviews</h4>
+            <div class="prog-holder">
+              <span data-progress="90%"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="timeline" id="timeline">
+      <h2>Timeline</h2>
+      <div class="container">
+        <div class="timeline-content">
+          <div class="year">2023</div>
+          <div class="left">
+            <div class="content">
+              <h3>Watching</h3>
+              <p>
+                We are working to improve our videos quality and bring the
+                latest series, movies and programmes.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Downloading</h3>
+              <p>
+                We are working to improve our videos quality with low size and
+                We hope you having a nice experiment.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonials" id="ts">
+      <h2>Testimonials</h2>
+      <div class="container">
+        <div class="ts-box">
+          <p>
+            I am so happy to subscribe with netflix. It's so amazing and nice
+            wathching to the latest movies.
+          </p>
+          <div class="person">
+            <img src="images/avatar-05.png" alt="" />
+            <h4>Mostafa Hamdi</h4>
+            <p>Front End Developer</p>
+          </div>
+        </div>
+        <div class="ts-box">
+          <p>
+            I am so happy to subscribe with netflix. It's so amazing and nice
+            wathching to the latest movies.
+          </p>
+          <div class="person">
+            <img src="images/avatar-04.png" alt="" />
+            <h4>Laila Saad</h4>
+            <p>Accountant</p>
+          </div>
+        </div>
+        <div class="ts-box">
+          <p>
+            I am so happy to subscribe with netflix. It's so amazing and nice
+            wathching to the latest movies.
+          </p>
+          <div class="person">
+            <img src="images/avatar-06.png" alt="" />
+            <h4>Hazem Shady</h4>
+            <p>Open Source Developer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact">
+      <div class="overlay"></div>
+      <h2>Contact Us</h2>
+      <div class="container">
+        <form class="" action="" method="post">
+          <div class="left">
+            <input type="text" name="username" placeholder="Your Name" autocomplete="on">
+            <input type="number" name="phone" placeholder="Your Phone" autocomplete="on">
+            <input type="email" name="email" placeholder="Your Email" autocomplete="on">
+            <input type="text" name="subject" placeholder="Subject" autocomplete="on">
+          </div>
+          <div class="right">
+            <textarea name="message" placeholder="Your Message" autocomplete="on"></textarea>
+            <input type="submit" value="Send">
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="footer">
+      Created With Love By Mostafa Hamdi
+    </div>
+    <script src="js/master.js"></script>
+  </body>
+</html>
